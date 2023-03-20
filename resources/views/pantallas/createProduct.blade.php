@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <h2>Formulario para crear un nuevo Producto</h2>
+            <h3>Formulario para crear un nuevo Producto</h3>
         </div>
         <div class="col-md-6">
             @if (session('success'))

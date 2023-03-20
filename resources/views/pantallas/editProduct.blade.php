@@ -3,6 +3,16 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h3>Actualizar Producto</h3>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center">
         <div class="col-md-3">
 
         </div>
@@ -31,7 +41,7 @@
                         <input type="file" name="file"  id="file" value="{{ $product->image_path }}" class="form-control"  placeholder="Nombre del Producto"/>
                         <br>
                         <label for="">Descripcion del Producto</label>
-                        <textarea  id="description" value="{{ $product->description }}" class="form-control" name="description" placeholder="Descripcion del Producto"></textarea>
+                        <textarea  id="description"  class="form-control" name="description" placeholder="Descripcion del Producto">{{ $product->description }}</textarea>
                         <br>
                         <div class="text-center">
                             <button type="submit" class="btn btn-warning ">Actualizar producto</button>

@@ -20,7 +20,7 @@
                                 <th class="text-center" style="color: white" scope="col">#</th>
                                 <th class="text-center" style="color: white" scope="col">Producto</th>
                                 <th class="text-center" style="color: white" scope="col">Precio</th>
-                                <th class="text-center " style="color: white" scope="col">Unidades Actuales</th>
+                                <th class="text-center " style="color: white" scope="col">Modelo</th>
                                 <th class="text-center " style="color: white" scope="col">Detalle</th>
                                 <th class="text-center " style="color: white" scope="col">Foto</th>
                                 <th class="text-center " style="color: white" scope="col" colspan="2">ACCIONES</th>
@@ -32,7 +32,7 @@
                                         <th></th>
                                         <th  class="text-center" scope="row">{{ $items->name }}</th>
                                         <th  class="text-center" scope="row">{{ $items->price }}</th>
-                                        <th  class="text-center" scope="row">{{ $items->stock }}</th>
+                                        <th  class="text-center" scope="row">{{ $items->slug }}</th>
                                         <th  class="text-center" scope="row">{{ $items->description }}</th>
                                         <th  class="text-center" scope="row"><img style="height: 10vh" src={{"http://localhost:8000/stortage/$items->image_path"}} alt=""></th>
                                         <th class="text-center" scope="row">
